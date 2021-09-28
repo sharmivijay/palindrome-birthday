@@ -1,0 +1,38 @@
+
+:root{
+    --primary-color: #E5E7EB;
+    --secondary-color: #1F2937; 
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 35%;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+#input-date{
+    width: 90%;
+    padding: 1%;
+    margin: 1%;   
+   }
+
+#btn-check{
+    width: 30%;
+    padding: 1%;
+    margin: 1%; 
+    border: 1px solid var(--secondary-color);
+    border-radius: 3px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+#output{
+    font-size: large;
+}
